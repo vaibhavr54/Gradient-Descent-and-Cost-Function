@@ -1,46 +1,70 @@
-# Gradient Descent
+# Gradient Descent Visualization and Implementation
 
-## Overview
+This repository contains an interactive Jupyter Notebook that demonstrates the concept and working of the Gradient Descent optimization algorithm.
 
-This repository documents my personal exploration and hands-on work with **gradient descent optimization and linear regression** using Python. It includes direct implementations, data visualizations, and example notebooks created for learning and demonstration—as a focused study on core machine learning topics, *not as a large-scale or production project*.
+---
 
-## Key Features
+## About the Project
 
-- **Learning-oriented:** All content highlights personal experimentation and understanding of gradient descent, linear regression, and related data analysis techniques.
-- **Python Implementation:** Scripts and Jupyter notebooks feature stepwise code, clear comments, and modular structure for readability.
-- **Visualization:** Detailed plots illustrate algorithm behavior, loss minimization, and regression results.
-- **Reference Data:** Includes small sample CSV files to support tests and visualization.
+Gradient Descent is a core component in many machine learning algorithms. This notebook walks through:
+
+* Basic intuition behind gradient descent
+* Mathematical explanation
+* Implementation from scratch using Python
+* Visualization of the cost function and updates over iterations
+* Comparison of different learning rates
+* Code designed for educational and demonstrative purposes
+
+---
 
 ## Contents
 
-- **Gradient Descent from Scratch:** Python functions and visualizations tracking loss over iterations.
-- **Linear Regression:**  
-  - Manual from-scratch calculation  
-  - Implementation using `scikit-learn`
-- **Data Plots:**  
-  - Regression lines  
-  - Loss landscapes  
-  - Data distribution charts
-- **Sample Datasets:** Ready for use in the included notebooks.
+* gradient\_descent.ipynb — The main Jupyter Notebook with code, math, and visualizations
 
-## How to Use
+---
 
-1. **Clone/Download** this repository.
-2. Open provided **Jupyter notebooks** or run Python scripts in your local environment.
-3. Experiment with code, data, and parameters to build a practical intuition for these algorithms.
+## Technologies Used
 
-## Intended Audience
+* Python 3.x
+* NumPy
+* Matplotlib
+* Jupyter Notebook
 
-- Learners, students, and developers wishing to see clear, hands-on examples of key ML algorithms
-- Anyone seeking reference implementations of gradient descent or linear regression in Python
+---
 
-## Note
+## Getting Started
 
-This repository is a focused showcase of work on this specific topic; it is not designed as a production library or large research package.
+1. Clone the repository:
+   git clone [https://github.com/your-username/gradient-descent-demo.git](https://github.com/your-username/gradient-descent-demo.git)
+   cd gradient-descent-demo
 
-## Contact
+2. Open the notebook using Jupyter Notebook or VS Code with a Jupyter extension.
 
-- **GitHub:** [github.com/vaibhavr54](https://github.com/vaibhavr54)
-- **Email:** vaibhavrakshe9220@gmail.com
+---
 
-*For questions or suggestions, please feel free to reach out!*
+## Visual Output
+
+This notebook includes:
+
+* 2D and 3D cost function plots
+* Trajectory of weight updates
+* Effect of learning rate on convergence
+
+---
+
+## Use Cases
+
+* Understanding optimization in machine learning
+* Academic demonstrations
+* Interview preparation for ML fundamentals
+* Teaching tool for data science students
+
+---
+
+## Author
+
+Vaibhav Rakshe
+
+Feel free to raise an issue or reach out for feedback and suggestions.
+
+---
