@@ -1,11 +1,3 @@
-''' Good students always try to solve exercise on their own first and then look at the ready made solution
-    I know you are an awesome student !! :)
-    Hence you will look into this code only after you have done your due diligence.
-    If you are not an awesome student who is full of laziness then only you will come here
-    without writing single line of code on your own. In that case anyways you are going to
-    face my anger with fire and fury !!!
-'''
-
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LinearRegression
